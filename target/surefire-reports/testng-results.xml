@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-11T11:26:12 EDT" name="All Test Suite" finished-at="2022-05-11T11:27:28 EDT" duration-ms="75924">
+    <groups>
+    </groups>
+    <test started-at="2022-05-11T11:26:12 EDT" name="/Users/carloscavalcante/Documents/Java/E2EProject" finished-at="2022-05-11T11:27:28 EDT" duration-ms="75924">
+      <class name="academy.HomePage">
+        <test-method is-config="true" signature="initializer()[pri:0, instance:academy.HomePage@1649b0e6]" started-at="2022-05-11T11:26:12 EDT" name="initializer" finished-at="2022-05-11T11:26:59 EDT" duration-ms="47387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:academy.HomePage@1649b0e6]" started-at="2022-05-11T11:27:19 EDT" name="basePageNavigation" data-provider="getData" finished-at="2022-05-11T11:27:27 EDT" duration-ms="8540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonRestrictUser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrict User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:academy.HomePage@1649b0e6]" started-at="2022-05-11T11:27:27 EDT" name="tearDown" finished-at="2022-05-11T11:27:27 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- academy.HomePage -->
+      <class name="academy.ValidateTitle">
+        <test-method is-config="true" signature="initializer()[pri:0, instance:academy.ValidateTitle@4cc8eb05]" started-at="2022-05-11T11:26:59 EDT" name="initializer" finished-at="2022-05-11T11:27:19 EDT" duration-ms="19345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="basePageNavigation()[pri:0, instance:academy.ValidateTitle@4cc8eb05]" started-at="2022-05-11T11:27:27 EDT" name="basePageNavigation" finished-at="2022-05-11T11:27:27 EDT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:academy.ValidateTitle@4cc8eb05]" started-at="2022-05-11T11:27:27 EDT" name="tearDown" finished-at="2022-05-11T11:27:28 EDT" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- academy.ValidateTitle -->
+    </test> <!-- /Users/carloscavalcante/Documents/Java/E2EProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
